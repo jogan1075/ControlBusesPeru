@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/desenfoque"
+     android:focusable="true"
+    android:focusableInTouchMode="true">
+    
+    <LinearLayout
+        android:id="@+id/LinearLayoutData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:background="#00000000"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:layout_weight="1"
+		    style="@style/btn1" > 
+
+			<TextView
+	            android:id="@+id/textViewNameSapce"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="16sp"	
+		        android:textStyle= "bold"
+		         android:textColor="@android:color/white"
+	            android:text="NAMESPACE WS" />
+
+        	<EditText
+	            android:id="@+id/editTextNameSpace"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+				android:textColor="@android:color/white"
+	        	android:singleLine="true" 
+	        >
+
+            
+        	</EditText>
+
+        	<TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="11sp"	
+	            android:textColor="@android:color/white"
+	            />
+        
+        </LinearLayout>
+        
+        <LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:layout_weight="1"
+		    style="@style/btn1" > 
+        
+        	<TextView
+	            android:id="@+id/textViewUrlWS"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="16sp"	
+		        android:textStyle= "bold"
+		        android:textColor="@android:color/white"
+	            android:text="URL WS" />
+
+        	<EditText
+	            android:id="@+id/editTextUrlWS"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:textColor="@android:color/white"
+	        	android:singleLine="true"
+	        	>
+        	</EditText>
+
+        	<TextView
+	            android:id="@+id/txtconductor1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="11sp"	
+	            android:textColor="@android:color/white"
+	            />
+        
+        </LinearLayout>
+        
+        <LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:layout_weight="1"
+		    style="@style/btn1" > 
+        
+          	<ToggleButton 
+			    android:id="@+id/togglebuttonAutentificacion"
+			    android:layout_width="match_parent"
+			    android:layout_height="60sp"
+			    android:textSize="15sp"	
+			    android:textColor="@android:color/white"
+			    android:textOn="Autentificación Activada"
+			    android:textOff="Autentificación Desactivada"
+			    android:onClick="BtnAutentificacion"/>
+        
+        </LinearLayout>
+         
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:layout_weight="1"
+		    style="@style/btn1" > 
+        
+        	<TextView
+	            android:id="@+id/textViewUsuarioWs"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="16sp"	
+		        android:textStyle= "bold"
+		        android:textColor="@android:color/white"
+	            android:text="USUARIO WS" />
+        
+        	<EditText
+	            android:id="@+id/editTextUsuarioWS"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:textColor="@android:color/white"
+	        	android:singleLine="true"
+	        	>
+        	</EditText>
+       	</LinearLayout>
+        
+        <LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:layout_weight="1"
+		    style="@style/btn1" > 
+        
+        	<TextView
+	            android:id="@+id/textViewContraseniaWS"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="16sp"	
+		        android:textStyle= "bold"
+		        android:textColor="@android:color/white"
+	            android:text="CONTRASEÑA WS" />
+        
+        	<EditText
+        	    android:id="@+id/editTextContraseniaWS"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="wrap_content"
+        	    android:inputType="textPassword"
+        	    android:singleLine="true"
+        	    android:textColor="@android:color/white"
+        	    	>
+
+        	</EditText>
+        
+        </LinearLayout>
+        
+
+        
+	</LinearLayout>
+	
+	 <LinearLayout
+        android:id="@+id/LinearLayoutConfig"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9"
+        android:orientation="horizontal" >
+        
+        <LinearLayout
+            android:id="@+id/LinearLayoutMenuConfigCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical" >
+            
+            <Button
+                android:id="@+id/buttonMenuConfigWSCancelar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"	
+		        android:textStyle= "bold"
+		        android:text="Cancelar"
+		        android:textColor="@android:color/white"
+		        android:gravity="center"
+		        android:onClick="BtnCancelar"
+		        style="@style/btn3"/>
+        
+    	</LinearLayout>
+    
+        <LinearLayout
+            android:id="@+id/LinearLayoutMenuConfigGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical" >
+            
+	    	<Button
+		         android:id="@+id/buttonConfigWSGuardar"
+		         android:layout_width="match_parent"
+		         android:layout_height="match_parent"
+                 android:textSize="20sp"	
+		         android:textStyle= "bold"
+		         android:text="Guardar" 
+		         android:textColor="@android:color/white"
+		         android:onClick="BtnGuardar"
+		         style="@style/btn3"/>
+        
+    	</LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

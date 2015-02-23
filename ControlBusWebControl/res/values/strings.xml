@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Control Bus</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menu_principal">MenuPrincipal</string>
+    <string name="title_activity_detalle_bus">DetalleBus</string>
+    <string name="title_activity_listado_pasajeros">ListadoPasajeros</string>
+    <string name="title_activity_configuracion">Configuracion</string>
+    <string name="title_activity_acerca_de">AcercaDe</string>
+    <string name="title_activity_contacto">Contacto</string>
+    <string name="title_activity_prueba">Prueba</string>
+    <string name="title_activity_contrasenia">Contrasenia</string>
+    <string name="title_activity_configuracion_principal">ConfiguracionPrincipal</string>
+    <string name="title_activity_config_ws">ConfigWS</string>
+    <string name="title_activity_ingreso_pasajeros">IngresoPasajeros</string>
+    <string name="title_activity_opciones">Opciones</string>
+    <string name="title_activity_log">LogActivity</string>
+    <string name="title_activity_sincronizacion_buses">Sincronizacion_buses</string>
+    <string name="title_activity_test">Test</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mostrar_pasajeros">MostrarPasajeros</string>
+    <string name="title_activity_lista_check_box">ListaCheckBox</string>
+    <string name="title_activity_mover__pasajeros">Mover_Pasajeros</string>
+    <string name="title_activity_configuracion__variables">Configuracion_Variables</string>
+    <string name="title_activity_tiempo_espera_reservas">TiempoEsperaReservas</string>
+    <string name="title_activity_splash">Splash</string>
+
+</resources>
